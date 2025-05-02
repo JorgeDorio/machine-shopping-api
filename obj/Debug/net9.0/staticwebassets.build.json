@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "iF7NJ9qfP5Vcl8M1eSfc8b2QGUuS1cqZ7otgNWHkNNA=",
+  "Source": "Machine.Shopping.Api",
+  "BasePath": "_content/Machine.Shopping.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
