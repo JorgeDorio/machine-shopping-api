@@ -9,7 +9,8 @@ public class User
     [BsonRepresentation(BsonType.ObjectId)]
     public string? Id { get; set; }
 
-    public required string Email { get; set; } 
+    public required string Email { get; set; }
+    public required string? TenantId { get; set; }
     public required string PasswordHash { get; set; }
     public required string Name { get; set; }
 }

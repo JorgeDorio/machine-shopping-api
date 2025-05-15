@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5rnGFTVfXrA=",
+  "dgSpecHash": "4nVlgqxOyPM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jorge\\dev\\personal\\machine shopping\\api\\Machine.Shopping.Api.csproj",
+  "projectFilePath": "C:\\Users\\jorge\\dev\\personal\\Agendei\\api\\Machine.Shopping.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jorge\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
     "C:\\Users\\jorge\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",

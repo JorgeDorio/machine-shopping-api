@@ -1,3 +1,4 @@
+using Machine.Shopping.Api;
 using Machine.Shopping.Api.Models;
 using Machine.Shopping.Api.Services;
 using Scalar.AspNetCore;
@@ -13,7 +14,7 @@ builder.Services.AddOpenApi();
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("MachineShoppingDatabase"));
 
 builder.Services.AddSingleton<UsersService>();
-
+builder.Services.AddScoped<CustomersService>();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -25,6 +26,8 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+app.UseMiddleware<Middleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -41,4 +44,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.Run();
+await app.RunAsync();

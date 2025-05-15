@@ -1017,11 +1017,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jorge\\dev\\personal\\machine shopping\\api\\Machine.Shopping.Api.csproj",
+      "projectUniqueName": "C:\\Users\\jorge\\dev\\personal\\Agendei\\api\\Machine.Shopping.Api.csproj",
       "projectName": "Machine.Shopping.Api",
-      "projectPath": "C:\\Users\\jorge\\dev\\personal\\machine shopping\\api\\Machine.Shopping.Api.csproj",
+      "projectPath": "C:\\Users\\jorge\\dev\\personal\\Agendei\\api\\Machine.Shopping.Api.csproj",
       "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jorge\\dev\\personal\\machine shopping\\api\\obj\\",
+      "outputPath": "C:\\Users\\jorge\\dev\\personal\\Agendei\\api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"

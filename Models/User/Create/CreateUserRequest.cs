@@ -8,14 +8,15 @@ public class CreateUserRequest
     public required string Password { get; set; }
     public required string Name { get; set; }
 
-    public User ToUser()
+    public User ToUser(string tenantId)
     {
         var hashedPassword = new PasswordHasher<CreateUserRequest>().HashPassword(this, Password);
         return new User
         {
             Email = Email,
             PasswordHash = hashedPassword,
-            Name = Name
+            Name = Name,
+            TenantId = tenantId
         };
     }
 }
